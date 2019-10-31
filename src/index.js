@@ -1,1 +1,4 @@
-console.log('app is on');
+import { bootstrap } from "./core/parts/bootstrap";
+import { appModule } from "./app/app.module";
+
+bootstrap(appModule);

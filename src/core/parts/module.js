@@ -1,6 +1,6 @@
 export class Module {
     constructor(config) {
-
+        this.components = config.components;
     }
 
     start() {
@@ -8,6 +8,6 @@ export class Module {
     }
 
     initComponents() {
-        
+        this.components.forEach(component => component.render());
     }
 }
