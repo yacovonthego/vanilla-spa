@@ -11,7 +11,7 @@ export const appHeader = new AppHeader({
     template: `
         <div class="navbar-fixed">  
           <nav>
-            <div class="nav-wrapper">
+            <div class="pl10 nav-wrapper">
               <a href="#" class="brand-logo">Vanilla SPA</a>
             </div>
           </nav>

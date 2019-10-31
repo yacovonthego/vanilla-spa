@@ -1,4 +1,7 @@
 import { VComponent } from "../core/index";
+import './css/main.css'
+import '../../node_modules/materialize-css/dist/css/materialize.min.css'
+
 
 class AppComponent extends VComponent {
     constructor(config) {
