@@ -9,6 +9,7 @@ class AppComponent extends VComponent {
 export const appComponent = new AppComponent({ 
     selector: 'app-root',
     template: `
+        <app-header></app-header>
         <div>
             App component
         </div>
